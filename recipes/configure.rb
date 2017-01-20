@@ -67,7 +67,7 @@ node['pg_bouncer']['instances'].each do |name, inst|
       source source_template
       owner node['pg_bouncer']['user']
       group node['pg_bouncer']['group']
-      mode 0644
+      mode 0640
       notifies :run, "execute[reload pgbouncer-#{name}]"
       variables(name: name, instance: inst,
                 user: node['pg_bouncer']['user'], group: node['pg_bouncer']['group'])
