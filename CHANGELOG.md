@@ -1,5 +1,10 @@
 # Change Log
 
+## [v1.2.1](https://github.com/jhulten/pg_bouncer-cookbook/tree/v1.2.1) (2017-03-07)
+[Full Changelog](https://github.com/jhulten/pg_bouncer-cookbook/compare/v1.2.0...v1.2.1)
+
+- fixed permissions on userlist.txt to prevent anyone from gaining access to postgres passwords
+
 ## [v1.2.0](https://github.com/jhulten/pg_bouncer-cookbook/tree/v1.2.0) (2016-05-05)
 [Full Changelog](https://github.com/jhulten/pg_bouncer-cookbook/compare/v1.1.2...v1.2.0)
 
